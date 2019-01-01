@@ -38,3 +38,9 @@
 * Very useful for keeping track of a subset of data in array/string etc.
 
 **Example1:** Write a function called maxSubarraySum wich accepts an array of integers and a number called n. The function should calculate the maximum sum of n consecutive elements in the array.
+
+### IV. Divide and Conquer
+* This pattern involves dividing a data set into smaller chuncks and then repeating a process with a subset of data.
+* This pattern can tremendouly **decrease time complexity**.
+
+**Example1:** Given a sorted array of integers, write a function called search, that accepts a value and returns the index where the value passed to the function is located. If the value is not found, return -1.
