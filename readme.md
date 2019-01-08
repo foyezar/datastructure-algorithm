@@ -20,6 +20,16 @@ Sorting is the process of rearranging the items in a collection (e.g. an array) 
 * Sorting is an incredibly common task, so it's good to know how it works
 * There are many different ways to sort things, and different techniques have their own advantages and disadvantages
 
+## Elementary Sorting Algorithms
+1. Bubble Sort
+2. Selection Sort
+3. Insertion Sort
+
+## Intermediate Sorting Algorithms
+1. Merge Sort
+2. Quick Sort
+3. Radix Sort
+
 **Sorting Algorithms Animation**
 Types of data  | Insertion | Selection | Bubble | Shell | Merge | Quick 
 ------------------------------------------------------------------------
@@ -27,6 +37,14 @@ Random         | Tim  | 57  | NYC      | null
 Nearly Sorted  | Ira  | 24  | Missoula | purple
 Reversed       | Sue  | 40  | Boulder  | null
 Few Unique     | Sue  | 40  | Boulder  | null
+
+## Big 0 of Sorting Algorithms
+
+Algorithm      | Best   | Average | Worst  | Space Complexity
+-------------------------------------------------------------
+Bubble Sort    | O(n)   | O(n^2)  | O(n^2) | O(1)
+Insertion Sort | O(n)   | O(n^2)  | O(n^2) | O(1)
+Selection Sort | O(n^2) | O(n^2)  | O(n^2) | O(1)
 
 ## Built-In JS Sorting method - sort()
 * The default sort order is according to string Unicode code points
