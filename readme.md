@@ -46,6 +46,7 @@ Bubble Sort    | O(n)       | O(n^2)    | O(n^2)    | O(1)
 Insertion Sort | O(n)       | O(n^2)    | O(n^2)    | O(1)
 Selection Sort | O(n^2)     | O(n^2)    | O(n^2)    | O(1)
 Merge Sort     | O(n log n) | O(n log n)| O(n log n)| O(n)
+Quick Sort     | O(n log n) | O(n log n)| O(n^2)   | O(log n)
 
 ## Built-In JS Sorting method - sort()
 * The default sort order is according to string Unicode code points
