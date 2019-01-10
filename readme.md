@@ -20,15 +20,21 @@ Sorting is the process of rearranging the items in a collection (e.g. an array) 
 * Sorting is an incredibly common task, so it's good to know how it works
 * There are many different ways to sort things, and different techniques have their own advantages and disadvantages
 
-## Elementary Sorting Algorithms
+## Comparison Sorting Algorithms
 1. Bubble Sort
 2. Selection Sort
 3. Insertion Sort
+4. Merge Sort
+5. Quick Sort
+6. Heap Sort
+7. Shell Sort
+8. Tim Sort
+9. Cycle Sort
 
-## Intermediate Sorting Algorithms
-1. Merge Sort
-2. Quick Sort
-3. Radix Sort
+## Non-Comparison Sorting Algorithms
+1. Radix Sort
+2. Counting Sort
+3. Bucket Sort
 
 **Sorting Algorithms Animation**
 Types of data  | Insertion | Selection | Bubble | Shell | Merge | Quick 
@@ -40,13 +46,17 @@ Few Unique     | Sue  | 40  | Boulder  | null
 
 ## Big 0 of Sorting Algorithms
 
-Algorithm      | Best       | Average   | Worst     | Space Complexity
------------------------------------------------------------------------
-Bubble Sort    | O(n)       | O(n^2)    | O(n^2)    | O(1)
-Insertion Sort | O(n)       | O(n^2)    | O(n^2)    | O(1)
-Selection Sort | O(n^2)     | O(n^2)    | O(n^2)    | O(1)
-Merge Sort     | O(n log n) | O(n log n)| O(n log n)| O(n)
-Quick Sort     | O(n log n) | O(n log n)| O(n^2)   | O(log n)
+Algorithm      | Best       | Average        | Worst          | Space Complexity
+--------------------------------------------------------------------------------
+Bubble Sort    | O(n)       | O(n^2)         | O(n^2)         | O(1)
+Insertion Sort | O(n)       | O(n^2)         | O(n^2)         | O(1)
+Selection Sort | O(n^2)     | O(n^2)         | O(n^2)         | O(1)
+Merge Sort     | O(n log n) | O(n log n)     | O(n log n)     | O(n)
+Quick Sort     | O(n log n) | O(n log n)     | O(n^2)         | O(log n)
+Heap Sort      | O(n log n) | O(n log n)     | O(n log n)     | O(1)
+Shell Sort     | O(n log n) | O(n (log n)^2) | O(n (log n)^2) | O(1)
+Radix Sort     | O(nk)      | O(nk)          | O(nk)          | O(n + k)
+Counting Sort  | O(n + k)   | O(n + k)       | O(n + k)       | O(k)
 
 ## Built-In JS Sorting method - sort()
 * The default sort order is according to string Unicode code points
