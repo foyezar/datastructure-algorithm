@@ -32,3 +32,15 @@
 1. Most primitives (booleans, numbers, undefined, null) are constant space.
 2. Strings require O(n) space (where n is the string length)
 3. Reference types are generally O(n), where n is the length (for arrays) or the number of keys (for objects)
+
+## Big O Complexity Chart
+
+![Big O Complexity Chart](img/big-o-complexity-chart.jpg)
+
+## Common Data Structure Operations
+
+![Common Data Structure Operations](img/common-ds-ops.jpg)
+
+## Array Sorting Algorithms
+
+![Array Sorting Algorithms](img/array-sorting-algs.jpg)
